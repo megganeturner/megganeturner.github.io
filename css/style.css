@@ -58,6 +58,7 @@ nav a {
   background-color: #F0F0F0;
   width: 25%;
   height: 45%;
+  overflow-y: scroll;
 }
 .bio {
   display: none;
@@ -142,4 +143,24 @@ td {
   width: 32px;
 }
 
+.thumbnail {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.work {
+  /*display: flex;
+  align-items: center;
+  justify-content: space-around;*/
+}
+
+.project {
+  font-family: 'Raleway', sans-serif;
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
 /*http://www.youandigraphics.com/*/
