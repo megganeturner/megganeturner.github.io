@@ -35,7 +35,7 @@ nav {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   text-align: center;
-  color: #7A7A7A;
+  color: #454545;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -43,7 +43,7 @@ nav {
 }
 nav a {
   font-size: 35px;
-  color: #F0F0F0;
+  color: #7A7A7A;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 100;
@@ -144,14 +144,8 @@ td {
 }
 
 .thumbnail {
-  width: 90%;
+  height: 120px;
   margin: 0 auto;
-}
-
-.work {
-  /*display: flex;
-  align-items: center;
-  justify-content: space-around;*/
 }
 
 .project {
@@ -162,5 +156,22 @@ td {
   padding: 10px;
   margin: 0;
   text-align: center;
+  height: 100%;
+  position: relative;
+}
+h4 {
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #454545;
+}
+.project p {
+  padding: 5px;
+  text-align: center;
+}
+
+.links {
+  position: absolute;
+  bottom: 10px;
+  left: 28%;
 }
 /*http://www.youandigraphics.com/*/
