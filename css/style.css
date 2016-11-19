@@ -155,7 +155,7 @@ h4 {
 .links {
   position: absolute;
   bottom: 10px;
-  left: 28%;
+  left: 35%;
 }
 /*http://www.youandigraphics.com/*/
 
@@ -211,6 +211,15 @@ h4 {
   display: none;
   bottom: 0;
   left: 0;
+  width: 25%;
+  height: 45%;
+}
+
+.businessas {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  left: 25%;
   width: 25%;
   height: 45%;
 }
