@@ -33,16 +33,17 @@ nav {
 }
 .title {
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   color: #454545;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 5px;
+  cursor: pointer;
 
 }
 nav a {
-  font-size: 35px;
+  font-size: 2.5vw;
   color: #7A7A7A;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -110,11 +111,26 @@ h3 {
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
 .block {
   font-family: 'Raleway', sans-serif;
-  width: 32%;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
+  padding: 5px;
+}
+
+.skillIcon {
+  font-size: 50px;
+  margin: 0 auto;
+  width: 55px;
+  display: block;
+  text-align: center;
+  padding-top: 7px;
 }
 
 a {
@@ -146,6 +162,7 @@ h4 {
   font-size: 16px;
   padding-bottom: 5px;
   border-bottom: 1px solid #454545;
+  text-align: center;
 }
 .project p {
   padding: 5px;
@@ -222,4 +239,18 @@ h4 {
   left: 25%;
   width: 25%;
   height: 45%;
+}
+
+
+@media (max-width: 1100px) {
+  td {
+    font-size: 13px;
+  }
+  .social {
+    width: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+
 }

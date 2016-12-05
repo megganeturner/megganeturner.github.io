@@ -17,7 +17,8 @@ $(document).ready(function(){
 
   $('#work').click(function(){
     $('.showing').not('.work').toggle('slide', {direction:'down'}, 800).toggleClass('showing');
-    $('.work').toggle('slide', {direction: 'left'}, 1000).toggleClass('showing');
+    $('.work.top').toggle('slide', {direction: 'down'}, 1000).toggleClass('showing');
+    $('.work.bottom').toggle('slide', {direction: 'up'}, 1000).toggleClass('showing');
   });
 
   $('.title').click(function(){
