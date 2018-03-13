@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Night Sky",
+    "imgSrc": "img/nightsky.png",
+    "siteLink": "https://megganeturner.github.io/night-sky/",
+    "githubLink": "https://github.com/megganeturner/night-sky",
+    "description": "Final project for General Assembly's part-time front-end development course, completed in April 2016.",
+    "tags": ["study", "fun"]
+  }, {
+    "title": "Triangles",
+    "imgSrc": "img/triangles.png",
+    "siteLink": "https://megganeturner.github.io/triangles/",
+    "githubLink": "https://github.com/megganeturner/triangles",
+    "description": "Project Zero at General Assembly. Interactive triangles using p5.js.",
+    "tags": ["study", "fun"]
+  }
+]
