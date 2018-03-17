@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,400';
+
+html {
+  box-sizing: border-box;
+	margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.textualLink {
+  color: #949494;
+  border-bottom: 1px solid #949494;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url('../img/clouds.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+.outer-box {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+  border: 20px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 10px;
+  height: calc(100vh - 52px);
+  width: calc(100vw - 52px);
+  background-color: #FFF;
+  text-align: center;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 90vmin;
+  max-width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #FFF;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px;
+  font-size: 6vmax;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.title {
+  background: url('../img/clouds.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+}
+
+.subtitle {
+  font-size: 2.5vmax;
+  font-weight: 500;
+}
+
+.headshot {
+  width: 25vmin;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+#about {
+  text-align: center;
+}
+
+.skills,
+.contactList {
+  padding: 0;
+  text-align: center;
+}
+
+.skills > li,
+.contactList > li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+#projectList {
+  padding: 32px 0;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.project > .leftCol {
+  max-width: 300px;
+}
+
+.project > .rightCol {
+  min-width: 260px;
+  max-width: calc(100% - 340px);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project > .rightCol > h3 {
+  margin-top: 0;
+}
+
+.project .featureImage {
+  width: 100%;
+}
+
+.project .featureImage:hover {
+  opacity: 0.8;
+}
+
+.links > .textualLink + .textualLink {
+  margin-left: 10px;
+}
+
+.emoji {
+  font-size: 34px;
+}
