@@ -11,7 +11,41 @@
     "imgSrc": "img/triangles.png",
     "siteLink": "https://megganeturner.github.io/triangles/",
     "githubLink": "https://github.com/megganeturner/triangles",
-    "description": "Project Zero at General Assembly. Interactive triangles using p5.js.",
+    "description": "WDI Project Zero at General Assembly (September 2016). Interactive triangles using p5.js.",
     "tags": ["study", "fun"]
+  }, {
+    "title": "Airbnb",
+    "imgSrc": "img/airbnb.png",
+    "siteLink": "https://megbnb.herokuapp.com",
+    "githubLink": "https://github.com/megganeturner/airbnb",
+    "description": "WDI Project One at General Assembly (October 2016). A clone of Airbnb built using Ruby on Rails.",
+    "tags": ["study"]
+  }, {
+    "title": "Wealth Redistribution Simulator",
+    "imgSrc": "img/wealthredis2.png",
+    "siteLink": "https://wealth-redistribution-sim.herokuapp.com",
+    "githubLink": "https://github.com/megganeturner/project-two",
+    "description": "WDI [Group] Project Two at General Assembly (November 2016). Built using Ruby on Rails & Phaser.",
+    "tags": ["study"]
+  }, {
+    "title": "Covered",
+    "imgSrc": "img/covered.png",
+    "siteLink": "https://techfugees16-covered.herokuapp.com",
+    "githubLink": "https://github.com/megganeturner/techfugees16",
+    "description": "Mentor matching platform built for the Techfugees Hackathon 2016, which won 2nd prize. Built using Ruby on Rails.",
+    "tags": ["fun"]
+  }, {
+    "title": "Business As Usual",
+    "imgSrc": "img/busasusual.png",
+    "siteLink": "https://businessasusual.herokuapp.com/",
+    "githubLink": "https://github.com/megganeturner/climate-change-visualiser",
+    "description": "Final Project at General Assembly. 3D visual representation of climate data Built using Ruby on Rails, leaflet.js & three.js",
+    "tags": ["study"]
+  }, {
+    "title": "Jaxsta",
+    "imgSrc": "https://lh5.googleusercontent.com/p/AF1QipMIb-B0-EFpPFwrR3yeKLYjRbbLjIokSDiF7J-G=w275-h160-k-no",
+    "siteLink": "https://www.jaxsta.com/",
+    "description": "Coming Soon. A massive database of official music credits.",
+    "tags": ["work"]
   }
 ]

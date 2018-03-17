@@ -1,215 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="css/style.css" rel="stylesheet">
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery-ui.js"></script>
+    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+  <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js"></script>
-  <a href="#"><title>Meggan E Turner</title></a>
+  <title>Meggan Turner | Web Developer 💻</title>
 </head>
 <body>
-  <img src="img/clouds.jpeg" alt="background image, wave" id="top">
-  <div class="container">
-    <div class="modules">
-      <div class="module bio top">
-        <img src="img/headshot.jpg" alt="headshot">
-        <h1>Meggan Turner</h1>
-        <h2>Full Stack Web Developer</h2>
-      </div>
+  <div class="outer-box">
+    <div class="container">
+      <section id="header">
+        <h1>
+          <span class="title">
+            Meggan Turner<br><span class="subtitle">Front End Web Developer</span>
+          </span>
+        </h1>
+      </section>
 
-      <div class="module work project nightSky top">
-        <a href="https://megganeturner.github.io/night-sky/" target="_blank">
-          <img src="img/nightsky.png" alt="night sky screenshot" class="thumbnail">
-        </a>
-        <a href="https://megganeturner.github.io/night-sky/" target="_blank"><h4>Night Sky</h4></a>
-        <p>Final Project for General Assembly's part-time front-end development course. Built with HTML, CSS &amp; JavaScript</p>
-        <div class="links">
-          <a href="https://megganeturner.github.io/night-sky/" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/night-sky" target="_blank">Code</a>
+      <section id="about">
+        <img src="./img/headshot.jpg" alt="Meggan Turner headshot" class="headshot">
+        <p>I'm Meggan, a front-end developer currently based in Sydney, Australia. Right now I'm working as a Front-end Developer at <a href="http://www.jaxsta.com" target="_blank" class="textualLink">Jaxsta</a>, a music / tech startup dedicated to giving credit where credit is due. I also assist in teaching part-time & casual front-end web development courses and workshops at <a href="https://generalassemb.ly/" target="_blank" class="textualLink">General Assembly</a>.</p>
+        <p>When I'm not coding, you can find me rock climbing, hiking, or watching dog videos (mostly watching dog videos).</p>
+
+        <h2>Technologies & Tools I Use Everyday</h2>
+        <ul class="skills">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>Ember JS</li>
+          <li>PostgreSQL & SQL Workbench</li>
+          <li>Git</li>
+          <li>Postman</li>
+          <li>JIRA / Bitbucket / Confluence</li>
+        </ul>
+      </section>
+
+      <section id="work">
+        <h2>A collection of projects I've completed for work, study & play.</h2>
+
+        <div id="projectList">
         </div>
-      </div>
+      </section>
 
-      <div class="module work project triangles top">
-        <a href="https://megganeturner.github.io/triangles/" target="_blank">
-          <img src="img/triangles.png" alt="triangles screenshot" class="thumbnail">
-        </a>
-        <a href="https://megganeturner.github.io/triangles/" target="_blank"><h4>Triangles</h4></a>
-        <p>Project Zero at General Assembly. Interactive triangles using p5.js.</p>
-        <div class="links">
-          <a href="https://megganeturner.github.io/triangles/" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/triangles" target="_blank">Code</a>
-        </div>
-      </div>
+      <section id="contact">
+        <span class="emoji">👋🏼</span>
+        <h2>Say hi</h2>
+        <ul class="contactList">
+          <li>
+            <a href="mailto:megganeturner@gmail.com" class="textualLink">
+              megganeturner@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/megganeturner" class="textualLink" target="_blank">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/megganeturner" class="textualLink" target="_blank">
+              Github
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/megganeturner" class="textualLink" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="img/MegganTurnerResume.pdf" class="textualLink" target="blank">
+              Resume
+            </a>
+          </li>
+        </ul>
+      </section>
 
-
-      <div class="module work project airbnb top">
-        <a href="https://megbnb.herokuapp.com" target="_blank">
-          <img src="img/airbnb.png" alt="Airbnb screenshot" class="thumbnail">
-        </a>
-        <a href="https://megbnb.herokuapp.com" target="_blank"><h4>Airbnb</h4></a>
-        <p>Project One at General Assembly. A clone of Airbnb built using Ruby on Rails</p>
-        <div class="links">
-          <a href="https://megbnb.herokuapp.com" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/airbnb" target="_blank">Code</a>
-        </div>
-      </div>
-
-
-      <div class="module work project wealthredis top">
-        <a href="https://wealth-redistribution-sim.herokuapp.com" target="_blank">
-          <img src="img/wealthredis2.png" alt="Wealth Redistribution Game screenshot" class="thumbnail">
-        </a>
-        <a href="https://wealth-redistribution-sim.herokuapp.com" target="_blank"><h4>Wealth Redistribution Simulator</h4></a>
-        <p>Project Two at General Assembly. Built using Ruby on Rails &amp; Phaser</p>
-        <div class="links">
-          <a href="https://wealth-redistribution-sim.herokuapp.com" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/project-two" target="_blank">Code</a>
-        </div>
-      </div>
-
-      <div class="module work project covered bottom">
-        <a href="https://techfugees16-covered.herokuapp.com" target="_blank">
-          <img src="img/covered.png" alt="Covered Screenshot" class="thumbnail">
-        </a>
-        <a href="https://techfugees16-covered.herokuapp.com" target="_blank"><h4>Covered (WIP)</h4></a>
-        <p>Mentor matching platform built for the Techfugees Hackathon 2016. Built using Ruby on Rails.</p>
-        <div class="links">
-          <a href="https://techfugees16-covered.herokuapp.com" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/techfugees16" target="_blank">Code</a>
-        </div>
-      </div>
-
-      <div class="module work project businessas bottom">
-        <a href="https://businessasusual.herokuapp.com/" target="_blank">
-          <img src="img/busasusual.png" alt="Business as Usual Screenshot" class="thumbnail">
-        </a>
-        <a href="https://businessasusual.herokuapp.com/" target="_blank"><h4>Business As Usual</h4></a>
-        <p>Final Project at General Assembly. 3D visual representation of climate data Built using Ruby on Rails, leaflet.js &amp; three.js</p>
-        <div class="links">
-          <a href="https://businessasusual.herokuapp.com/" target="_blank">Live Site</a> |
-          <a href="https://github.com/megganeturner/climate-change-visualiser" target="_blank">Code</a>
-        </div>
-      </div>
-
-      <nav>
-        <a href="#" id="about">About</a>
-        <a href="#" id="skills">Skills</a>
-        <span class="title">Meggan Turner</span>
-        <a href="#" id="work">Work</a>
-        <a href="#" id="contact">Contact</a>
-
-      </nav>
-      <div class="module bio bottom">
-        <p>
-          My name is Meggan and I am a Full Stack Web Developer based in Sydney, Australia. My love for technology began when I started working for General Assembly in 2014. Seeing so many students come through our Web Development Programs and have so much fun inspired me to take the same path in late 2016.
-          <br>
-          <br>
-          I love playing around with code and working to solve problems in both the front-end and the back-end.
-          <br><br>
-          I'm looking for a role in a company with social good at its core, where I can grow as a developer and work with an amazing team.
-        </p>
-      </div>
-      <div class="module skills bottom">
-        <div class="wrapper">
-          <div class="block">
-            <!-- <span class="skillIcon">💻</span> -->
-            <img src="img/frontend.png" alt="front-end icon" class="skillIcon">
-            <h4>Front-end</h4>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>Backbone.js</li>
-              <li>Phaser</li>
-            </ul>
-          </div>
-          <div class="block">
-            <!-- <span class="skillIcon">⚙</span> -->
-            <img src="img/backend.png" alt="back-end icon" class="skillIcon">
-            <h4>Back-end</h4>
-            <ul>
-              <li>Ruby</li>
-              <li>Rails</li>
-              <li>Sinatra</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-          <div class="block">
-            <!-- <span class="skillIcon">💡</span> -->
-            <img src="img/creative.png" alt="creative icon" class="skillIcon">
-            <h4>Creative</h4>
-            <ul>
-              <li>p5.js</li>
-              <li>Processing</li>
-              <li>three.js</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="module contact bottom">
-        <table>
-          <col style="width:70%">
-          <col style="width:30%">
-          <tr>
-            <td>
-              <a href="mailto:megganeturner@gmail.com">megganeturner@gmail.com</a>
-            </td>
-            <td>
-              <a href="mailto:megganeturner@gmail.com">
-                <img src="img/email.png" class="social">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://www.linkedin.com/in/megganeturner" target="_blank">LinkedIn</a>
-            </td>
-            <td>
-              <a href="https://www.linkedin.com/in/megganeturner" target="_blank">
-                <img src="img/linkedin.svg" class="social">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://github.com/megganeturner" target="_blank">Github</a>
-            </td>
-            <td>
-              <a href="https://github.com/megganeturner" target="_blank">
-                <img src="img/github.svg" class="social">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://twitter.com/megganeturner" target="_blank">@megganeturner</a>
-            </td>
-            <td>
-              <a href="https://twitter.com/megganeturner" target="_blank">
-                <img src="img/twitter.svg" class="social">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="img/MegganTurnerResume.pdf" target="blank">Resume</a>
-            </td>
-            <td>
-              <a href="img/MegganTurnerResume.pdf" target="blank">
-                <img src="img/resume.png" class="social">
-              </a>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      </div>
-
-
+    </div>
+  </div>
 </body>
 </html>
