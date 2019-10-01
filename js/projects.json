@@ -1,5 +1,12 @@
 [
   {
+    "title": "Jaxsta",
+    "imgSrc": "img/jaxsta-logo.png",
+    "siteLink": "https://www.jaxsta.com/",
+    "description": "A massive database of official music credits. Released in Beta in 2019. I worked at Jaxsta from 2016-2019, working across the Front-End and Database teams to deliver the Jaxsta product.",
+    "tags": ["work"]
+  },
+  {
     "title": "Night Sky",
     "imgSrc": "img/nightsky.png",
     "siteLink": "https://megganeturner.github.io/night-sky/",
@@ -41,11 +48,5 @@
     "githubLink": "https://github.com/megganeturner/climate-change-visualiser",
     "description": "Final Project at General Assembly. 3D visual representation of climate data Built using Ruby on Rails, leaflet.js & three.js",
     "tags": ["study"]
-  }, {
-    "title": "Jaxsta",
-    "imgSrc": "https://lh5.googleusercontent.com/p/AF1QipMIb-B0-EFpPFwrR3yeKLYjRbbLjIokSDiF7J-G=w275-h160-k-no",
-    "siteLink": "https://www.jaxsta.com/",
-    "description": "Coming Soon. A massive database of official music credits.",
-    "tags": ["work"]
   }
 ]

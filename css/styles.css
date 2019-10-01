@@ -121,20 +121,16 @@ h2 {
 }
 
 .project {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   padding-bottom: 30px;
-}
-
-.project > .leftCol {
-  max-width: 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 12px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .project > .rightCol {
-  min-width: 260px;
-  max-width: calc(100% - 340px);
-  padding: 10px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
