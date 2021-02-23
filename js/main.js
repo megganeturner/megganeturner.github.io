@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         siteLinkEl.setAttribute('href', project.siteLink);
         siteLinkEl.setAttribute('target', '_blank');
         siteLinkEl.className = 'textualLink';
-        siteLinkEl.appendChild(document.createTextNode('Live Site'));
+        siteLinkEl.appendChild(document.createTextNode('View'));
 
         linksEl.appendChild(siteLinkEl);
       }
