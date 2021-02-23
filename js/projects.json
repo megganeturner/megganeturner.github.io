@@ -1,9 +1,16 @@
 [
   {
+    "title": "Double the Beyoncé: Navigating Numbers in Javascript",
+    "imgSrc": "img/jsconfasia.jpg",
+    "siteLink": "https://www.youtube.com/watch?v=4zveh5TzB6U",
+    "description": "A talk given at JSConf Asia 2019, Web Directions 2019, and DDD Sydney 2018, exploring the quirks of numbers in JavaScript (with plenty of Beyoncé references of course 👸🏽).",
+    "tags": ["play"]
+},
+  {
     "title": "Jaxsta",
     "imgSrc": "img/jaxsta-logo.png",
     "siteLink": "https://www.jaxsta.com/",
-    "description": "A massive database of official music credits. Released in Beta in 2019. I worked at Jaxsta from 2016-2019, working across the Front-End and Database teams to deliver the Jaxsta product.",
+    "description": "A massive database of official music credits. Released in Beta in 2019. I worked at Jaxsta from 2016-2021, working across the Front-End and Database teams to deliver the Jaxsta product.",
     "tags": ["work"]
   },
   {
@@ -46,7 +53,7 @@
     "imgSrc": "img/busasusual.png",
     "siteLink": "https://businessasusual.herokuapp.com/",
     "githubLink": "https://github.com/megganeturner/climate-change-visualiser",
-    "description": "Final Project at General Assembly. 3D visual representation of climate data Built using Ruby on Rails, leaflet.js & three.js",
+    "description": "Final Project for General Assembly's Sofware Engineering Immersive, completed in November 2016. 3D visual representation of climate data Built using Ruby on Rails, leaflet.js & three.js",
     "tags": ["study"]
   }
 ]
