@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const projectList = document.getElementById("projectList");
 
   loadJSON('js/projects.json', function (data) {
-    data.forEach((project) => {
+    data.reverse().forEach((project) => {
       const projectEl = document.createElement('div');
       projectEl.className = 'project';
 
