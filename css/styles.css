@@ -1,168 +1,110 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,300,400';
+:root {
+    --pink: #ffc0cb;
+    --grey: #949494;
+}
 
 html {
-  box-sizing: border-box;
-	margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
-}
-
-a {
-  text-decoration: none;
-}
-
-.textualLink {
-  color: #949494;
-  border-bottom: 1px solid #949494;
+    box-sizing: inherit;
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  background: url('../img/clouds.jpeg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Raleway', sans-serif;
-  overflow: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
-.outer-box {
-  height: 100vh;
-  width: 100vw;
-  background-color: transparent;
-  border: 20px solid #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+a {
+    text-decoration: none;
+    color: var(--grey);
+    border-bottom: 1px solid var(--pink);
 }
 
-.container {
-  padding: 10px;
-  height: calc(100vh - 52px);
-  width: calc(100vw - 52px);
-  background-color: #FFF;
-  text-align: center;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+a:hover,
+a:visited:hover {
+    color: var(--pink);
 }
 
-section {
-  margin: 0 auto;
-  min-height: 100%;
-  width: 90vmin;
-  max-width: 98%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+a:visited {
+    color: var(--grey);
 }
 
-h1 {
-  background-color: #FFF;
-  overflow: hidden;
-  display: inline-block;
-  padding: 10px;
-  font-size: 6vmax;
-  font-weight: 100;
-  text-align: center;
-  margin: 0;
-  text-transform: uppercase;
+.image-wrap {
+    width: 200px;
+    height: 200px;
+    position: relative;
 }
 
-.title {
-  background: url('../img/clouds.jpeg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  display:block;
+.image-wrap > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
-.subtitle {
-  font-size: 2.5vmax;
-  font-weight: 500;
+.image-wrap > .image-inner-border {
+    position: absolute;
+    border: 1px solid var(--pink);
+    width: 92%;
+    height: 92%;
+    top: 4%;
+    left: 4%;
 }
 
-.headshot {
-  width: 25vmin;
-  margin: 30px auto;
-  border-radius: 50%;
+.content {
+    /* TODO center it vertically-ish */
+    margin: 20vh auto 0;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    align-items: baseline;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 100;
-  margin-top: 40px;
+p {
+    margin: 0;
 }
 
-#about {
-  text-align: center;
+.drop-cap {
+    font-size: 1.4rem;
 }
 
-.skills,
-.contactList {
-  padding: 0;
-  text-align: center;
+.drop-cap::first-letter {
+    font-size: 1.8rem;
 }
 
-.skills > li,
-.contactList > li {
-  list-style-type: none;
-  line-height: 25px;
+article {
+    grid-column: 1 / span 2;
 }
 
-#projectList {
-  padding: 32px 0;
+.horizontal-rule {
+    width: 80%;
+    margin: 2rem auto 0;
+    height: 5px;
+    background-color: var(--pink);
 }
 
-.project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 12px;
-  max-width: 700px;
-  margin: 0 auto;
-}
 
-@media screen and (max-width: 600px) {
-  .project {
-    grid-template-columns: 1fr;
-  }
-}
+@media screen and (max-width: 690px) {
+    .content {
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 80%;
+    }
 
-.project + .project {
-    margin-top: 40px;
-}
+    .image-wrap {
+        margin: 0 auto;
+    }
 
-.project > .rightCol {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
+    p {
+        text-align: center;
+    }
 
-.project > .rightCol > h3 {
-  margin-top: 0;
-}
-
-.project .featureImage {
-  width: 100%;
-  max-width: 300px;
-}
-
-.project .featureImage:hover {
-  opacity: 0.8;
-}
-
-.links > .textualLink + .textualLink {
-  margin-left: 10px;
-}
-
-.emoji {
-  font-size: 34px;
+    article {
+        grid-column: unset;
+    }
 }
