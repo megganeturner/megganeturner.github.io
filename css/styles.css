@@ -56,8 +56,9 @@ a:visited {
 
 .content {
     /* TODO center it vertically-ish */
-    margin: 20vh auto 0;
+    margin: 15vh auto 0;
     width: 60%;
+    max-width: 65ch;
     display: grid;
     grid-template-columns: 200px 1fr;
     column-gap: 40px;
@@ -83,11 +84,35 @@ article {
 
 .horizontal-rule {
     width: 80%;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
     height: 5px;
     background-color: var(--pink);
 }
 
+footer {
+    width: 75%;
+    margin: 0 auto 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+footer > a + a {
+    margin-left: 10px;
+}
+
+.monstera {
+    width: 60px;
+    margin: 0 auto;
+    transform: rotate(160deg);
+    transition: all 1s;
+    display: block;
+    opacity: 0.7;
+}
+
+.monstera:hover {
+    transform: rotate(200deg);
+    transition: all 1s;
+}
 
 @media screen and (max-width: 690px) {
     .content {
