@@ -1,0 +1,7 @@
+.humaaan {
+    width: 70px;
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    transform: scaleX(-1);
+}
