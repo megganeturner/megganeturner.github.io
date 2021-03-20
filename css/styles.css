@@ -56,7 +56,6 @@ a:visited {
 }
 
 .content {
-    /* TODO center it vertically-ish */
     margin: 15vh auto 0;
     width: 60%;
     max-width: 65ch;
