@@ -1,39 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,400';
-:root {
-    --pink: #ffc0cb;
-    --grey: #949494;
-}
-
-html {
-    box-sizing: border-box;
-    margin: 0;
-    font-size: 16px;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: var(--grey);
-    border-bottom: 1px solid var(--pink);
-    transition: all 0.2s ease-in;
-}
-
-a:hover,
-a:visited:hover {
-    color: var(--pink);
-}
-
-a:visited {
-    color: var(--grey);
-}
-
 .image-wrap {
     width: 200px;
     height: 200px;
@@ -56,9 +20,6 @@ a:visited {
 }
 
 .content {
-    margin: 15vh auto 0;
-    width: 60%;
-    max-width: 65ch;
     display: grid;
     grid-template-columns: 200px 1fr;
     column-gap: 40px;
@@ -80,14 +41,6 @@ p {
 
 article {
     grid-column: 1 / span 2;
-}
-
-.horizontal-rule {
-    width: 80%;
-    max-width: 75ch;
-    margin: 2rem auto;
-    height: 5px;
-    background-color: var(--pink);
 }
 
 footer {
@@ -119,7 +72,6 @@ footer > a + a {
     .content {
         grid-template-columns: 1fr;
         align-items: center;
-        width: 80%;
     }
 
     .image-wrap {

@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,400';
+:root {
+    --pink: #ffc0cb;
+    --grey: #949494;
+    --black: #121212;
+
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.colour-scheme-wrapper {
+    min-height: 100vh;
+    padding-top: 15vh;
+    position: relative;
+}
+
+#dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#dark-mode-toggle-label {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#dark-mode-toggle:checked ~ .colour-scheme-wrapper {
+    background: var(--black);
+    color: white;
+}
+
+#dark-mode-toggle:checked ~ #dark-mode-toggle-label {
+    color: white;
+}
+
+#dark-mode-toggle:not(:checked) ~ #dark-mode-toggle-label .light-mode {
+    display: none;
+}
+
+#dark-mode-toggle:checked ~ #dark-mode-toggle-label .dark-mode {
+    display: none;
+}
+
+#dark-mode-toggle:checked ~ .colour-scheme-wrapper img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--grey);
+    border-bottom: 1px solid var(--pink);
+    transition: all 0.2s ease-in;
+}
+
+a:hover,
+a:visited:hover {
+    color: var(--pink);
+}
+
+a:visited {
+    color: var(--grey);
+}
+
+.horizontal-rule {
+    width: 80%;
+    max-width: 75ch;
+    margin: 2rem auto;
+    height: 5px;
+    background-color: var(--pink);
+}
+
+.content {
+    width: 60%;
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 690px) {
+    .content {
+        width: 80%;
+    }
+}
