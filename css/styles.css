@@ -22,6 +22,7 @@ a {
     text-decoration: none;
     color: var(--grey);
     border-bottom: 1px solid var(--pink);
+    transition: all 0.2s ease-in;
 }
 
 a:hover,
@@ -84,6 +85,7 @@ article {
 
 .horizontal-rule {
     width: 80%;
+    max-width: 75ch;
     margin: 2rem auto;
     height: 5px;
     background-color: var(--pink);
@@ -102,7 +104,7 @@ footer > a + a {
 
 .monstera {
     width: 60px;
-    margin: 0 auto;
+    margin: 0 auto 15vh;
     transform: rotate(160deg);
     transition: all 1s;
     display: block;
