@@ -3,7 +3,6 @@
     --pink: #ffc0cb;
     --grey: #949494;
     --black: #121212;
-
 }
 
 html {
@@ -23,7 +22,7 @@ body {
 
 .colour-scheme-wrapper {
     min-height: 100vh;
-    padding-top: 15vh;
+    padding: 15vh 0;
     position: relative;
 }
 
@@ -33,14 +32,21 @@ body {
     right: 20px;
     z-index: 1;
     cursor: pointer;
+    appearance: none;
 }
 
 #dark-mode-toggle-label {
     position: absolute;
     top: 20px;
-    right: 40px;
+    right: 20px;
     z-index: 1;
     cursor: pointer;
+    font-size: 0.8rem;
+    border: 2px solid var(--pink);
+    padding: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: -2px 2px 0px 2px var(--pink);
 }
 
 #dark-mode-toggle:checked ~ .colour-scheme-wrapper {
@@ -93,7 +99,6 @@ a:visited {
     max-width: 65ch;
     margin: 0 auto;
 }
-
 
 @media screen and (max-width: 690px) {
     .content {
